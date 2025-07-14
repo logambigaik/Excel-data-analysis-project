@@ -54,9 +54,9 @@ You have a table of data from a pet adoption agency. The columns in the table ar
 
 Answer:
 
-  •  column labels: Age
-  •  row labels: Species
-  •  cell values: Weight
-  •  summary method: average
+  *  column labels: Age
+  *  row labels: Species
+  *  cell values: Weight
+  *  summary method: average
 
 <b> Note that it is also correct to swap Age and Species. Typically, if one category is numeric and the other isn't, the non-numeric category is set as the row labels. But that is not a hard rule.</b>
