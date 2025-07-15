@@ -128,5 +128,24 @@ To better understand what a histogram shows, let’s visualize the median househ
 
 <img width="500" height="556" alt="image" src="https://github.com/user-attachments/assets/5ed3c8d2-00d6-4d02-9802-d0c98f050ab1" />
 
+##### Line charts
+Line charts plot points in the data connected with a line to visualize the trend. Multiple lines can be plotted on the same graph to compare trends between groups. For example, here is a line chart of the production numbers above:
 
+<img width="500" height="578" alt="image" src="https://github.com/user-attachments/assets/d213dec8-02bd-4772-a6e2-4e52fc43be70" />
+
+
+##### Sparklines
+Sparklines are a feature in Excel that places a trend line (like a mini line chart) next to each row of a table. For example, here is what the sparklines would look like for our vehicle production data:
+
+The original vehicle production table. Next to the 2013 column is a column of trendlines. The lines go up when the numbers in that row increase, and down when the numbers in that row decrease.
+
+Sparklines can be helpful when we want to see general trends for individual categories. In the line chart, the fluctuations in Van production weren’t visible, since they were so small compared to the fluctuations for cars. In the sparkline, we can see them much more clearly.
+
+<img width="500" height="304" alt="image" src="https://github.com/user-attachments/assets/69968fd8-e37a-4321-a8f9-8d8514535ea1" />
+
+#### Question: How do you pick a chart from recommended charts?
+
+Answer
+
+When deciding which chart type to use for your data, one thing to consider is the kind of data you are visualizing. For example, to compare sizes of categories you might want a column chart, while to look at trends over time you might want a line chart. In general, you want a chart that isn't too cluttered and clearly communicates key properties of the dataset. Think about the story each chart tells, and whether someone looking at the chart would be able to understand it.
 
