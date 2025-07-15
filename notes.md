@@ -60,3 +60,73 @@ Answer:
   *  summary method: average
 
 <b> Note that it is also correct to swap Age and Species. Typically, if one category is numeric and the other isn't, the non-numeric category is set as the row labels. But that is not a hard rule.</b>
+
+
+### Conditional Formatting
+For example, let’s take a look at a table of average gas mileage (mpg) for different types of vehicles over time (from the Bureau of Transportation Statistics).
+
+A table in Excel with four columns: year, car , car SUV, and pickup truck. The rows are labeled with years 2010 through 2015. The values are average miles per gallon.
+
+<img width="500" height="478" alt="image" src="https://github.com/user-attachments/assets/e595dbe8-bd96-4c4e-83b4-f532c0300b54" />
+
+What if we wanted to see at a glance whether gas mileage was improving over time, or which years met a certain threshold for efficiency? We’ll look at two techniques: color scales and cell rules.
+
+
+#### Color scales
+In many cases, we want to see which rows and columns of a table have larger or smaller values. For example, we might want to see if vehicles have tended to get more efficient over time or identify the most and least efficient vehicles in the MPG dataset. A way to solve this using data visualization is by creating a heatmap, which colors each cell in the data table depending on its value.
+
+In the heatmap below, for example, the smallest values are colored dark red, the highest values are dark green, and the values in-between are shaded based on where they fall in that spectrum (with yellow in the middle).
+
+The car column is all shades of green, showing that they are more efficient than the other columns (yellow for car SUVs and red for trucks). Within the car column, the green is getting darker over time, indicating that cars have continually improved in average MPG!
+
+The same MPG table. The car column is shaded green, starting light in 2010 and getting dark by 2015. The Car SUV column is shaded yellow, getting slightly lighter over time, and the pickup truck is shaded red, getting slightly lighter over time.
+
+We’ve placed a slideshow in the Learning Environment illustrating how to apply a heatmap in Excel using conditional formatting!
+
+<img width="500" height="444" alt="image" src="https://github.com/user-attachments/assets/88cff60e-5b3f-4981-951e-a97a9b6b2419" />
+
+#### Cell rules
+Sometimes, we have more specific questions about the values in our data. For example, we might want to see if every value in a table meets a particular threshold or not.
+
+In our dataset, let’s assume that a minimum of 26 mpg is considered “good” gas mileage for a vehicle. We can visualize this by coloring cells that meet this criteria green and all other cells red.
+
+The result would look something like this:
+
+<img width="500" height="438" alt="image" src="https://github.com/user-attachments/assets/934052fd-4c40-4b0f-8c38-ae0ca47ce617" />
+
+In Excel, we can do this by defining custom rules to conditionally format the cells. The full process is illustrated in the slideshow in the learning environment.
+
+
+#### Column and Pie Charts
+A common task in data visualization is to compare the sizes of categories. For example, in our vehicle data we might want to compare how many cars are being produced as opposed to SUVs or trucks. Column charts and pie charts are simple ways to visualize categorical data and make comparisons.
+
+<img width="500" height="548" alt="image" src="https://github.com/user-attachments/assets/03b99033-4f99-4069-a8a9-de0c32d30cd7" />
+
+
+##### Column charts
+In column charts, each category is represented by a column in the plot and we can compare them by assessing the length of the columns or bars. Note that these are commonly also called bar charts, but the tool in Excel calls them column charts.
+
+<img width="500" height="566" alt="image" src="https://github.com/user-attachments/assets/674ea6f0-0baa-4e26-aecc-781c1c5aecd3" />
+
+##### Pie Charts
+In pie charts, each category is viewed as a “slice” or sector of a pie, with the size (or area) of the slice corresponding to the relative size of that category. Because the categories as slices make up the whole pie, pie charts should only be used to visualize categories that are pieces of some whole. In other words, the area of the sectors (slices) should add up to 100%.
+
+In our dataset, the different vehicle categories are all part of the same whole: the collection of all vehicles in 2020.
+
+<img width="500" height="540" alt="image" src="https://github.com/user-attachments/assets/cde2c9ad-daa6-4b4d-9805-46612d2b661e" />
+
+
+##### Histograms and Scatterplots
+Column charts and pie charts are excellent for comparing the sizes of categories. But they won’t help us understand more general numeric columns. For example, suppose we wanted to use the following table of housing price data (in thousands of US dollars) to analyze the impact of wealth inequality on housing.
+
+<img width="500" height="820" alt="image" src="https://github.com/user-attachments/assets/27212195-6f00-44e1-b6a9-ed9bba093f0c" />
+
+##### Histogram
+Histograms are used to understand the “shape” of a single column of numeric data. A histogram breaks the data-points into bins and then counts the number of data points in each bin.
+
+To better understand what a histogram shows, let’s visualize the median household income data for just the first 9 rows of data shown above:
+
+<img width="500" height="556" alt="image" src="https://github.com/user-attachments/assets/5ed3c8d2-00d6-4d02-9802-d0c98f050ab1" />
+
+
+
