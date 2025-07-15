@@ -14,6 +14,10 @@
 2. Created a **sparkline** in cell **P9** for the "Cancelled & Long" row to visualize monthly trends.
 3. Dragged the sparkline down through **P17** to represent trends for all reservation statuses and lead time types.
 
+
+<img width="600" height="404" alt="image" src="https://github.com/user-attachments/assets/81fa9a25-2164-49c2-bdd8-252388878dae" />
+
+
 **Observations:**
 - Cancellations in the "Long" lead time category peaked in certain months.
 - "Kept" reservations were more stable across short and medium lead times.
@@ -43,6 +47,9 @@
 - Kept reservations cluster toward shorter lead times.
 - Suggests longer planning windows correlate with higher cancellation risk.
 
+<img width="600" height="772" alt="image" src="https://github.com/user-attachments/assets/667223db-8c33-4b07-894b-28d0f44b590f" />
+
+
 ---
 
 ## 🔗 Lead Time to Cancellations Sheet: Scatter Plot
@@ -54,6 +61,8 @@
 - Positive correlation: as average lead time increases, cancellations also tend to rise.
 - Indicates early bookings are more likely to be cancelled.
 
+<img width="600" height="788" alt="image" src="https://github.com/user-attachments/assets/a269a3a6-57d3-4b41-aa5b-e38e0945b00a" />
+
 ---
 
 ## 📉 Over Time Sheet: Line Chart (Normalized Trends)
@@ -64,6 +73,8 @@
 **Observations:**
 - Both metrics follow a similar seasonal pattern.
 - Suggests that seasonality may influence both lead time and cancellations simultaneously.
+
+<img width="600" height="934" alt="image" src="https://github.com/user-attachments/assets/38906d62-9f59-41eb-96dc-0fc9a9fbaa0c" />
 
 ---
 
@@ -87,6 +98,8 @@
 - Longer lead times significantly correlate with cancellation risk, especially in agent-driven bookings.
 
 ---
+
+<img width="600" height="948" alt="image" src="https://github.com/user-attachments/assets/bf57ef55-a33f-4b49-ab08-2706124fd9fb" />
 
 ## 🧾 Summary
 
