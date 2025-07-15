@@ -43,3 +43,16 @@ Manuela, Head of Finance, is considering the potential of Bitcoin. She's curious
 ```excel
 = (Closing - Opening) / Opening
 ```
+### Screenshot
+
+<img width="600" height="1288" alt="image" src="https://github.com/user-attachments/assets/0f95ed24-d6c4-4151-af45-faa3f176c691" />
+<br>
+
+<img width="1718" height="1238" alt="image" src="https://github.com/user-attachments/assets/b36e9145-15a9-4427-88c0-2cb77730b4dd" />
+<br>
+<img width="1582" height="1254" alt="image" src="https://github.com/user-attachments/assets/4f246f60-0c37-43fd-bb83-d29e3fe626b9" />
+<br>
+
+<img width="2032" height="1276" alt="image" src="https://github.com/user-attachments/assets/24117875-c8bd-45f1-93b7-e78cd989de14" />
+<br>
+<img width="828" height="480" alt="image" src="https://github.com/user-attachments/assets/d18fab30-32d5-4fec-8c46-3a680b2699d0" />
