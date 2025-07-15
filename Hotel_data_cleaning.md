@@ -86,3 +86,12 @@ This project involved importing and cleaning booking data in Excel, preparing it
 - Ensured the dataset is now ready for further analysis or visualization.
 
 ---
+
+<img width="600" height="236" alt="image" src="https://github.com/user-attachments/assets/ad61c36a-661e-4429-b89e-ded7e65f4022" />
+
+<img width="600" height="794" alt="image" src="https://github.com/user-attachments/assets/0000c61b-1075-4d5b-99f1-3e6983584122" />
+
+<img width="600" height="426" alt="image" src="https://github.com/user-attachments/assets/fa6bc5e9-fda2-4497-9d90-949751c6b201" />
+
+
+
